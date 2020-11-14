@@ -55,7 +55,12 @@ $ 80 Million
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
+* User can sign up and create an account. 
+* User can sign in and out.
+* User receives daily health-related quotes once loginto their account.
+* User can read articles based on the mood they search for such as happiness, sadness, depression.
+* User can connect with people who are also suffering from depression.
+* User can look up for nearby therphists and health experts to take recommendations.
 * ...
 
 **Optional Nice-to-have Stories**
@@ -82,9 +87,11 @@ $ 80 Million
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
+* Registration Page
+   *Log In Page 
+   *HomePage
+   *Connect Page
+   *
 * [list second screen here]
    * [list screen navigation here]
    * ...
