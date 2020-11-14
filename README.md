@@ -98,7 +98,7 @@ $ 80 Million
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/snehamsuresh/Care-Hub/blob/main/videowalkthroughcare.gif" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src="https://github.com/snehamsuresh/Care-Hub/blob/main/carehub1.png" width=600>
