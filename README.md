@@ -94,7 +94,10 @@ $ 80 Million
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/snehamsuresh/Care-Hub/blob/main/carehub1.png" width=600>
+<img src="" width=600>
+<img src="" width=600>
+
 ### [BONUS] Interactive Prototype
 
 ## Schema 
