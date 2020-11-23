@@ -70,8 +70,8 @@ $ 80 Million
 
 ### 2. Screen Archetypes
 
-* [Login
-   Register]
+* Log in
+* Register
    * [list associated required story here]
    * ...
 * [list second screen here]
