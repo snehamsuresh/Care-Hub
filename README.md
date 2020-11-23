@@ -114,12 +114,35 @@ My Profile: This page allows the user to edit their profile infromation and upda
 [This section will be completed in Unit 9]
 ### Models
 *User: This model class contains information about the friends of the user:
-| Left-aligned | Center-aligned | Right-aligned |
+| Property | Type | Description |
 | :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| ObjectId     | String         | unique id for the user post (default field)|
+| Image        | File           | Image that user sees when swipes |
+| Status       | Boolean        | Shows whether the swipped user is online or not|
+| Bio          | String         | Contains information about the swiped user|
+| Location     | String         | Shows the location of the swipped user|
 
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+-List of network requests by screen
+Home Feed Screen
+(Read/GET) Query all posts where user is author
+let query = PFQuery(className:"Post")
+query.whereKey("author", equalTo: currentUser)
+query.order(byDescending: "createdAt")
+query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+   if let error = error { 
+      print(error.localizedDescription)
+   } else if let posts = posts {
+      print("Successfully retrieved \(posts.count) posts.")
+  // TODO: Do something with posts...
+   }
+}
+(Create/POST) Create a new like on a post
+(Delete) Delete existing like
+(Create/POST) Create a new comment on a post
+(Delete) Delete existing comment
+Create Post Screen
+(Create/POST) Create a new post object
+Profile Screen
+(Read/GET) Query logged in user object
+(Update/PUT) Update user profile image
