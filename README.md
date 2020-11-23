@@ -113,6 +113,11 @@ My Profile: This page allows the user to edit their profile infromation and upda
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
+*User: This model class contains information about the friends of the user:
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
 ### Networking
 - [Add list of network requests by screen ]
