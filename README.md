@@ -71,13 +71,15 @@ $ 80 Million
 ### 2. Screen Archetypes
 
 * Log in
-* Register
-   * [list associated required story here]
+* Register- User signs up or Log into their account
+   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information.
+   * Once the new user log into their account, they are given information about the carehub and the way to use it.
+* Home Screen- User recieves health-related quotes on the homescreen. They can also select the mood from the "mood's" toolbar.
+   * Types of moodes: Anxious, Scared, Stressed, Happy, Excited, Overwhelmed, Nervous
    * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
-
+* Hubs- This page shows the already added friends. It shows the status of the friends whether they are online or Offline.
+*Matching: This page allows the user to swipe different users for matching. If they match, the person is added to the friend's list of the user.
+My Profile: This page allows the user to edit their profile infromation and update their profile pictures.
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
@@ -111,7 +113,7 @@ $ 80 Million
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
